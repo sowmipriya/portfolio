@@ -10,6 +10,7 @@ A vibrant, modern, and professional portfolio website showcasing experience as a
 - **Visual Elements**: Gradient backgrounds, animated blobs, icons, and color-coded sections
 - **Accessible**: Semantic HTML and proper color contrast for accessibility
 - **Performance**: Built with Vite for fast development and optimized production builds
+- **Open-Source Chatbot**: "Ask about me" chatbot (no API, client-side) so visitors can ask questions about experience, skills, projects, education, and contact
 
 ## Tech Stack
 
@@ -63,13 +64,17 @@ portfolio/
 ├── src/
 │   ├── components/
 │   │   ├── About.jsx
+│   │   ├── Chatbot.jsx
 │   │   ├── Contact.jsx
+│   │   ├── Education.jsx
 │   │   ├── Experience.jsx
 │   │   ├── Hero.jsx
 │   │   ├── Navigation.jsx
 │   │   ├── Projects.jsx
 │   │   ├── Publications.jsx
 │   │   └── Skills.jsx
+│   ├── data/
+│   │   └── chatbotKnowledge.js
 │   ├── App.jsx
 │   ├── index.css
 │   └── main.jsx
@@ -99,6 +104,7 @@ All content is easily editable in the component files:
 - **Projects**: `src/components/Projects.jsx` - Selected work projects with gradient cards
 - **Publications**: `src/components/Publications.jsx` - Research publications
 - **Contact**: `src/components/Contact.jsx` - Contact information with icon cards
+- **Chatbot**: `src/components/Chatbot.jsx` - Floating "Ask about me" chat widget; answers are defined in `src/data/chatbotKnowledge.js` (keyword-based, no external API)
 
 ### Color Scheme
 
