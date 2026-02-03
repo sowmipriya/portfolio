@@ -8,6 +8,7 @@ import Projects from './components/Projects'
 import Publications from './components/Publications'
 import Contact from './components/Contact'
 import Navigation from './components/Navigation'
+import Chatbot from './components/Chatbot'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Projects />
       <Publications />
       <Contact />
+      <Chatbot />
     </div>
   )
 }
